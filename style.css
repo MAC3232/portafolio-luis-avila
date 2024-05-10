@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #020041;
+
+}
+.container-app{
+    height: 100vh;
+}
+.head{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    font-size: 1.5em;
+}
+
+
+.head .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end ;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.head .options li {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    list-style: none;
+}
+.head .options a{
+    color: white;
+    text-decoration: none;
+}
+
+.head .options a:hover{
+    color: aqua;
+    scale: 1.1;
+}
+
+.sectionTwo{
+    height: 85%;
+    display: flex;
+    
+    
+}
+
+.info{
+    flex: 1;
+    background: blue;
+    background-image: url('img/imeg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 5em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 10rem;
+}
+.photo{
+    flex: 1;
+    background-image: url('img/1715301254962.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.info .lastName{
+    padding-left: 4rem;
+}
+
+
+.social{
+    margin-top: 18rem;
+    font-size: .5em;
+    color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 15rem;
+    /* margin: 2rem; */
+}
+
+.social ion-icon{
+    margin: 10px;
+}
